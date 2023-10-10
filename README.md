@@ -1,13 +1,10 @@
-# sanjanaprasadkr.github.io
+# MS in Applied Data Analytics @ Boston University
 
-# Data Scientist
+#### Technical Skills: Python, R, SQL, MATLAB, C
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
-
-## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+## Education				       		
+- M.S., Applied Data Analytics | Boston University (_Jan 2025_)	 			        		
+- B.Tech., Electronics and Communication Engineering | PES University (_Jun 2023_)
 
 ## Work Experience
 **Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
@@ -20,7 +17,7 @@
 
 ## Projects
 ### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+[Publication](/assets/Super.pdf)
 
 Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
 
