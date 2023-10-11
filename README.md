@@ -1,5 +1,5 @@
 # MS in Applied Data Analytics @ Boston University
-[View PDF](URL_TO_YOUR_PDF_FILE.pdf)
+[View PDF](assets/Deep_Learning_Techniques_for_Detection_of_Underwater_Acoustic_Sources.pdf)
 #### Technical Skills: Python, R, SQL, MATLAB, C
 
 ## Education				       		
