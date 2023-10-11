@@ -1,5 +1,5 @@
 # MS in Applied Data Analytics @ Boston University
-
+[View PDF](URL_TO_YOUR_PDF_FILE.pdf)
 #### Technical Skills: Python, R, SQL, MATLAB, C
 
 ## Education				       		
