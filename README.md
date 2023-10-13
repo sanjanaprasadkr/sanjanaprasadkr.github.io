@@ -13,7 +13,7 @@
 - <u>Performance Metrics</u>: accuracy, probability of detection
 - <u>Statistical Concepts</u>: classification, hypothesis testing, Monte Carlo simulation, signal-to-noise ratio (SNR)
 - <u>Noise Model</u>: Generalised Gaussian Distribution
-- <u>Datasets</u>: synthetic (generated) and real-world dataset
+- <u>Datasets</u>: synthetic (generated) and real-world datasets
   
 **Deep Learning Techniques for Detection of Underwater Acoustic Sources**  
 <small> _**Sanjana K. R. Prasad**, Sanjeev Gurugopinath_ </small>  
