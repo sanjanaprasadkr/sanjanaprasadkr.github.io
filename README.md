@@ -1,4 +1,8 @@
-# MS in Applied Data Analytics @ Boston University
+# M.S. in Applied Data Analytics @ Boston University
+
+## Education
+- M.S. in Applied Data Analytics, Boston University (_Jan 2025_)								       		
+- B.Tech. in Electronics and Communication Engineering, PES University (_Jun 2023_)	
 
 ## Publications
 **Supervised Learning Techniques for Detection of Underwater Acoustic Sources**  
