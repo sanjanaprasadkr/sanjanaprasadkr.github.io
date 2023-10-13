@@ -23,7 +23,7 @@
 - SVM outperformed all other algorithms in detecting an underwater acoustic source, particularly in low signal-to-noise ratio scenarios.
 
 **Hurricane Damage Detection using Computer Vision**
-[View Publication](3591156.3591174.pdf)
+[View Publication](assets/3591156.3591174.pdf)
 - Python - PyTorch, Python Imaging Library, CV2
 - Computer vision - vision transformer, ResNet, InceptionNet, EfficientNet, visual geometry group, generative adversarial network
 - Image processing - boundary extraction, thresholding, noise removal, opening, flood filling
