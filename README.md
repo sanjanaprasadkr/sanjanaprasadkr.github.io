@@ -34,7 +34,7 @@
 **Project - Building an augmented reality measurement application**  
 [Link Text](https://www.xenvis.com/measurements-using-augmented-reality/)
 
-### Stock Analysis using Python - (Course: MET CS 677 Data Science with Python)
+**Stock Analysis using Python - (Course: MET CS 677 Data Science with Python)**
 Utilize machine learning techniques to analyze stock data and compare portfolio growth across various trading strategies
 
 
