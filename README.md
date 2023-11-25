@@ -44,7 +44,7 @@ Analyzed the clustering-based proximity of stock opening prices to highs and low
 
 **Stock Analysis using Python**  
 <small>(Course: MET CS 677 Data Science with Python)</small>  
-- Utilize machine learning techniques to analyze stock data and compare portfolio growth across various trading strategies in Python
+- Utilized machine learning techniques to analyze stock data and compare portfolio growth across various trading strategies in Python
 - <u>Finance</u> - Portfolio analysis, stocks, trading strategies, machine learning for stock datasets
 
 
