@@ -9,17 +9,17 @@
 <small> _**Sanjana K. R. Prasad**, Sanjeev Gurugopinath_ </small>  
 [View Publication](assets/Supervised_Learning_Techniques_for_Detection_of_Underwater_Acoustic_Sources.pdf)
 - <u>Python</u>: TensorFlow, scikit-learn, numpy, matplotlib
-- <u>Machine Learning</u>: support vector machine (SVM), logistic regression, naive Bayes, decision tree, random forest
-- <u>Performance Metrics</u>: accuracy, probability of detection
-- <u>Statistical Concepts</u>: classification, hypothesis testing, Monte Carlo simulation, signal-to-noise ratio (SNR)
-- <u>Noise Model</u>: Generalised Gaussian Distribution
+- <u>Machine learning</u>: support vector machine (SVM), logistic regression, naive Bayes, decision tree, random forest
+- <u>Performance metrics</u>: accuracy, probability of detection
+- <u>Statistical concepts</u>: classification, hypothesis testing, Monte Carlo simulation, signal-to-noise ratio (SNR)
+- <u>Noise model</u>: Generalised Gaussian Distribution
 - <u>Datasets</u>: synthetic (generated) and real-world datasets
   
 **Deep Learning Techniques for Detection of Underwater Acoustic Sources**  
 <small> _**Sanjana K. R. Prasad**, Sanjeev Gurugopinath_ </small>  
 [View Publication](assets/Deep_Learning_Techniques_for_Detection_of_Underwater_Acoustic_Sources.pdf)
-- <u>Deep Learning</u>: convolutional neural networks (CNN), plain deep neural network, recurrent neural network, long short term memory (LSTM), gated recurrent unit
-- <u>Performance Metrics</u>: accuracy, probability of detection, probability of false alarm
+- <u>Deep learning</u>: convolutional neural networks (CNN), plain deep neural network, recurrent neural network, long short term memory (LSTM), gated recurrent unit
+- <u>Performance metrics</u>: accuracy, probability of detection, probability of false alarm
 - <u>Datasets</u>: synthetic (generated) dataset and real-world datasets
 
 **Hurricane Damage Detection using Computer Vision**  
@@ -34,10 +34,19 @@
 **Project - Building an augmented reality measurement application**  
 [Link Text](https://www.xenvis.com/measurements-using-augmented-reality/)
 
------------------------------------------------------------------------------------------------------------------------------------------
-**Stock Analysis using Python - (Course: MET CS 677 Data Science with Python)**  
-Utilize machine learning techniques to analyze stock data and compare portfolio growth across various trading strategies
+## Projects
+### Boston University
+**Stock Opening Price Analysis Through Clustering**
+-Analyzed the clustering-based proximity of stock opening prices to highs and lows, aiding in portfolio optimization.
 
+**Statistical ML Techniques for Financial Data Analysis**
+-<u>Techniques used</u> - ANOVA, hypothesis testing, linear regression, correlation
+
+**Stock Analysis using Python**
+<small>(Course: MET CS 677 Data Science with Python)** </small>  
+- Utilize machine learning techniques to analyze stock data and compare portfolio growth across various trading strategies in Python
+
+- <u>Finance</u> - Portfolio analysis, stocks, trading strategies, machine learning for stock datasets
 
 
 
