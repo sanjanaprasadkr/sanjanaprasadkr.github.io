@@ -36,16 +36,16 @@
 
 ## Projects
 ### Boston University
-**Stock Opening Price Analysis Through Clustering**  
-Analyzed the clustering-based proximity of stock opening prices to highs and lows, aiding in portfolio optimization.
 
-**Statistical ML Techniques for Financial Data Analysis**  
-<u>Techniques used</u> - ANOVA, hypothesis testing, linear regression, correlation
+**Exploring Dynamics of Stock Performance Across Sectors**  
+<u>Statistical Techniques</u> - linear regression, ANOVA, ANCOVA, hypothesis testing, correlation, logistic regression
+
+**Analyzing Stock Return Clusters and Opening Prices**  
+<u>Techniques</u> - clustering
 
 **Stock Analysis using Python**  
 <small>(Course: MET CS 677 Data Science with Python)</small>  
 - Utilized machine learning techniques to analyze stock data and compare portfolio growth across various trading strategies in Python
-- <u>Finance</u> - Portfolio analysis, stocks, trading strategies, machine learning for stock datasets
 
 
 
