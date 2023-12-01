@@ -38,10 +38,10 @@
 ### Boston University
 
 **Exploring Dynamics of Stock Performance Across Sectors**  
-<u>Statistical Techniques</u> - linear regression, ANOVA, ANCOVA, hypothesis testing, correlation, logistic regression
+- <u>Statistical Techniques</u>: linear regression, ANOVA, ANCOVA, hypothesis testing, correlation, logistic regression
 
 **Analyzing Stock Return Clusters and Opening Prices**  
-<u>Techniques</u> - clustering
+- <u>Techniques</u>: clustering
 
 **Stock Analysis using Python**  
 <small>(Course: MET CS 677 Data Science with Python)</small>  
