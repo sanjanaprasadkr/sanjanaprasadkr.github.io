@@ -49,9 +49,6 @@ Teaching Assistant, Boston University
 **Sector-wise Stock Performance Analysis for Strategic Investment Decision**  
 - <u>Statistical Techniques</u>: linear regression, ANOVA, ANCOVA, hypothesis testing, correlation, logistic regression
 
-**Stock Analysis using Python**  
-<small>(Course: MET CS 677 Data Science with Python)</small>  
-- Utilized machine learning techniques to analyze stock data and compare portfolio growth across various trading strategies in Python
 
 
 
