@@ -1,4 +1,6 @@
 # M.S. in Applied Data Analytics @ Boston University
+Research Assistant, Boston University
+Teaching Assistant, Boston University
 
 ## Education
 - M.S. in Applied Data Analytics, Boston University (_Jan 2025_)								       		
@@ -37,11 +39,11 @@
 ## Projects
 ### Boston University
 
-**Exploring Dynamics of Stock Performance Across Sectors**  
-- <u>Statistical Techniques</u>: linear regression, ANOVA, ANCOVA, hypothesis testing, correlation, logistic regression
-
-**Analyzing Stock Return Clusters and Opening Prices**  
+**Quarterly Clustering for High-Return Stock Identification**  
 - <u>Techniques</u>: clustering
+
+**Sector-wise Stock Performance Analysis for Strategic Investment Decision**  
+- <u>Statistical Techniques</u>: linear regression, ANOVA, ANCOVA, hypothesis testing, correlation, logistic regression
 
 **Stock Analysis using Python**  
 <small>(Course: MET CS 677 Data Science with Python)</small>  
