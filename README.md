@@ -7,6 +7,13 @@ Teaching Assistant, Boston University
 - B.Tech. in Electronics and Communication Engineering, PES University (_Jun 2023_)	
 
 ## Publications
+**Hurricane Damage Detection using Computer Vision**  
+<small> _Amrita Ramesh, **Sanjana K R Prasad**, Siddhanth Srikanth, Shikha Tripathi_ </small>  
+[View Publication](assets/3591156.3591174.pdf)
+- <u>Python</u> - PyTorch, Python Imaging Library, CV2
+- <u>Computer vision</u> - vision transformer, ResNet, InceptionNet, EfficientNet, visual geometry group, generative adversarial network
+- <u>Image processing</u> - boundary extraction, thresholding, noise removal, opening, flood filling
+  
 **Supervised Learning Techniques for Detection of Underwater Acoustic Sources**  
 <small> _**Sanjana K. R. Prasad**, Sanjeev Gurugopinath_ </small>  
 [View Publication](assets/Supervised_Learning_Techniques_for_Detection_of_Underwater_Acoustic_Sources.pdf)
@@ -24,12 +31,6 @@ Teaching Assistant, Boston University
 - <u>Performance metrics</u>: accuracy, probability of detection, probability of false alarm
 - <u>Datasets</u>: synthetic (generated) dataset and real-world datasets
 
-**Hurricane Damage Detection using Computer Vision**  
-<small> _Amrita Ramesh, **Sanjana K R Prasad**, Siddhanth Srikanth, Shikha Tripathi_ </small>  
-[View Publication](assets/3591156.3591174.pdf)
-- <u>Python</u> - PyTorch, Python Imaging Library, CV2
-- <u>Computer vision</u> - vision transformer, ResNet, InceptionNet, EfficientNet, visual geometry group, generative adversarial network
-- <u>Image processing</u> - boundary extraction, thresholding, noise removal, opening, flood filling
 
 ## Experience
 ### Xenvis Solutions
