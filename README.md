@@ -34,8 +34,8 @@ Teaching Assistant, Boston University
 ## Experience
 ### Xenvis Solutions
 **Project - Building an augmented reality measurement application**  
-[Link](https://www.xenvis.com/measurements-using-augmented-reality/)
-•	Led the development efforts to create an interactive augmented reality point-to-point measurement application. Utilized computer vision packages notably improving the efficiency of product quality inspections compared to manual methods.
+[Link](https://www.xenvis.com/measurements-using-augmented-reality/)  
+•	Led the development efforts to create an interactive augmented reality point-to-point measurement application. Utilized computer vision packages notably improving the efficiency of product quality inspections compared to manual methods.  
 •	Conducted research to optimize image preprocessing for the development of a proprietary 3D model reconstruction software. Achieved ~20% improvement in processing time.
 
 
