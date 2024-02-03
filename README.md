@@ -1,5 +1,5 @@
 # M.S. in Applied Data Analytics @ Boston University
-Research Assistant, Boston University
+Research Assistant, Boston University  
 Teaching Assistant, Boston University
 
 ## Education
