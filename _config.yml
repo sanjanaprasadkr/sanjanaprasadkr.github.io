@@ -2,6 +2,7 @@ title: Sanjana Prasad
 logo: /assets/IMG_9838.JPG
 #description: text below img
 #show_downloads: true
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
+theme: minima
 #theme: jekyll-theme-just-the-docs
 
