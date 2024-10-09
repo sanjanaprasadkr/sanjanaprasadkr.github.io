@@ -24,7 +24,7 @@ I also acquired valuable experience in product management working under BIOVIAâ€
 
 As part of the Technology & Research team, my primary focus was developing XenCapture, an AI-driven software for photorealistic 2D to 3D model reconstruction, for AR/ VR applications. This has since been rolled out as a full-scale product **[(product link)](https://xencapture.com)**. I contributed to the development of dataset curation, pre-processing pipelines, and research focused on using machine learning to interpolate missing data points that were not captured during the scanning process. 
 
-One of the standout projects I led was the development of an AR measurement app built using Unity. This app allowed users to make precise point-to-point measurements of physical objects using their phone's camera, leveraging computer vision techniques. I authored a blog post detailing various use cases for customers **[(blog link)](https://www.xenvis.com/measurements-using-augmented-reality/))**.
+One of the standout projects I led was the development of an AR measurement app built using Unity. This app allowed users to make precise point-to-point measurements of physical objects using their phone's camera, leveraging computer vision techniques. I authored a blog post detailing various use cases for customers **[(blog link)](https://www.xenvis.com/measurements-using-augmented-reality/)**.
    
 
 ## Publications
