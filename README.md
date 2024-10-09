@@ -1,8 +1,8 @@
 <div align="center">
-  <a href="#industry-experience" style="font-size: 24px; margin-right: 20px;">Industry Experience</a> |
-  <a href="#publications" style="font-size: 24px; margin-right: 20px;">Publications</a> |
-  <a href="#teaching" style="font-size: 24px;">Teaching</a> |
-  <a href="#education" style="font-size: 24px; margin-right: 20px;">Education</a> 
+  <a href="#industry-experience" style="font-size: 12px; margin-right: 20px;">Industry Experience</a> |
+  <a href="#publications" style="font-size: 12px; margin-right: 20px;">Publications</a> |
+  <a href="#teaching" style="font-size: 12px;">Teaching</a> |
+  <a href="#education" style="font-size: 12px; margin-right: 20px;">Education</a> 
 </div>
 
 ---
@@ -14,7 +14,7 @@ This summer, I interned at Dassault Systemes as a Data Science Intern, where I w
 
 ---
 
-## Industry Experience
+## <h2 id="industry-experience" style="color: #4B0082;">Industry Experience</h2>
 
 ### [Dassault Systemes](https://www.3ds.com)
 **Data Science Intern**
