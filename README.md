@@ -43,9 +43,11 @@ One of the standout projects I led was the development of an AR measurement app 
 ## Teaching
 ### Teaching Assistantships 
 
-Boston University: [CS677 Data Science with Python] ("https://www.bu.edu/csmet/files/2024/01/CS-677-A2-Eugene-Pinsky.pdf), Spring 2024, Fall 2024
-Boston University: CS555 Foundations of Machine Learning, Fall 2024
-PES University: Digital Image Processing, Fall 2022
+**Boston University: [CS677 Data Science with Python](https://www.bu.edu/csmet/files/2024/01/CS-677-A2-Eugene-Pinsky.pdf)**, Spring 2024, Fall 2024  
+
+**Boston University: CS555 Foundations of Machine Learning**, Fall 2024  
+
+**PES University: Digital Image Processing**, Fall 2022  
 
 
 
