@@ -57,19 +57,19 @@ One of the standout projects I led was the development of an AR measurement app 
 ## Teaching
 ### Teaching Assistantships 
 
-- BU: **[CS677, Data Science with Python](https://www.bu.edu/csmet/files/2024/01/CS-677-A2-Eugene-Pinsky.pdf)**, Spring 2024, Fall 2024  
+- **BU: [CS677, Data Science with Python](https://www.bu.edu/csmet/files/2024/01/CS-677-A2-Eugene-Pinsky.pdf)**, Spring 2024, Fall 2024  
 
-- BU: **CS555, Foundations of Machine Learning**, Fall 2024
+- **BU: CS555, Foundations of Machine Learning**, Fall 2024
 
-- PESU: **Digital Image Processing**, Fall 2022
+- **PESU: Digital Image Processing**, Fall 2022
 
 
 ---
 
 ## Education
 
-- **Master of Science in Applied Data Analytics**, Boston University (_2024_)								       		
-- **Bachelor of Technology in Electronics and Communication Engineering**, PES University (_2023_)	
+- Master of Science in Applied Data Analytics, Boston University (_2024_)								       		
+- Bachelor of Technology in Electronics and Communication Engineering, PES University (_2023_)	
 
 
 
