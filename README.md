@@ -40,15 +40,15 @@ One of the standout projects I led was the development of an AR measurement app 
 ---
 
 ## Publications
-1. Hurricane Damage Detection using Computer Vision  
+1. **Hurricane Damage Detection using Computer Vision**  
 <small> _Amrita Ramesh, **Sanjana K R Prasad**, Siddhanth Srikanth, Shikha Tripathi_ </small>  
 [View Publication](assets/3591156.3591174.pdf)
   
-3. Supervised Learning Techniques for Detection of Underwater Acoustic Sources  
+3. **Supervised Learning Techniques for Detection of Underwater Acoustic Sources**  
 <small> _**Sanjana K. R. Prasad**, Sanjeev Gurugopinath_ </small>  
 [View Publication](assets/Supervised_Learning_Techniques_for_Detection_of_Underwater_Acoustic_Sources.pdf)
   
-4. Deep Learning Techniques for Detection of Underwater Acoustic Sources  
+4. **Deep Learning Techniques for Detection of Underwater Acoustic Sources**  
 <small> _**Sanjana K. R. Prasad**, Sanjeev Gurugopinath_ </small>  
 [View Publication](assets/Deep_Learning_Techniques_for_Detection_of_Underwater_Acoustic_Sources.pdf)
 
@@ -57,19 +57,19 @@ One of the standout projects I led was the development of an AR measurement app 
 ## Teaching
 ### Teaching Assistantships 
 
-- BU: [CS677, Data Science with Python](https://www.bu.edu/csmet/files/2024/01/CS-677-A2-Eugene-Pinsky.pdf (_Spring 2024, Fall 2024_)  
+- BU: **[CS677, Data Science with Python](https://www.bu.edu/csmet/files/2024/01/CS-677-A2-Eugene-Pinsky.pdf**, Spring 2024, Fall 2024  
 
-- BU: CS555, Foundations of Machine Learning (_Fall 2024_) 
+- BU: **CS555, Foundations of Machine Learning**, Fall 2024
 
-- PESU: Digital Image Processing (_Fall 2022_)
+- PESU: **Digital Image Processing**, Fall 2022
 
 
 ---
 
 ## Education
 
-- Master of Science in Applied Data Analytics, Boston University (_2024_)								       		
-- Bachelor of Technology in Electronics and Communication Engineering, PES University (_2023_)	
+- **Master of Science in Applied Data Analytics**, Boston University (_2024_)								       		
+- **Bachelor of Technology in Electronics and Communication Engineering**, PES University (_2023_)	
 
 
 
