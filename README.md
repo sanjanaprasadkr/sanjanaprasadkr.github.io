@@ -1,22 +1,25 @@
+<div align="center">
+  <a href="#education" style="font-size: 32px; margin-right: 20px;">Education</a> |    
+  <a href="#industry-experience" style="font-size: 32px; margin-right: 20px;">Industry Experience</a> |    
+  <a href="#publications" style="font-size: 32px; margin-right: 20px;">Publications</a> |    
+  <a href="#teaching" style="font-size: 32px;">Teaching</a>
+</div>
 
+---
+
+## About
 I am a Data Science graduate student at Boston University. I completed my Bachelor’s degree in Electronics and Communication Engineering at PES University.  
 
 This summer, I interned at Dassault Systemes as a Data Science Intern, where I worked on improving data pipelines for **[BIOVIA's Pipeline Pilot](https://www.3ds.com/products/biovia/pipeline-pilot)**.
 
+--- 
 
-## Table of Contents
-- [Education](#education)
-- [Industry Experience](#industry-experience)
-    - [Dassault Systemes](#dassault-systemes)
-    - [Xenvis Solutions](#xenvis-solutions)
-- [Publications](#publications)
-- [Teaching](#teaching)
-
-          
 ## Education
 
 - Master of Science in Applied Data Analytics, Boston University (_2024_)								       		
 - Bachelor of Technology in Electronics and Communication Engineering, PES University (_2023_)	
+
+--- 
 
 ## Industry Experience
 
@@ -38,6 +41,8 @@ As part of the Technology & Research team, my primary focus was developing XenCa
 One of the standout projects I led was the development of an AR measurement app built using Unity. This app allowed users to make precise point-to-point measurements of physical objects using their phone's camera, leveraging computer vision techniques. I authored a blog post detailing various use cases for customers **[(blog link)](https://www.xenvis.com/measurements-using-augmented-reality/)**.
    
 
+---
+
 ## Publications
 1. **Hurricane Damage Detection using Computer Vision**  
 <small> _Amrita Ramesh, **Sanjana K R Prasad**, Siddhanth Srikanth, Shikha Tripathi_ </small>  
@@ -51,6 +56,7 @@ One of the standout projects I led was the development of an AR measurement app 
 <small> _**Sanjana K. R. Prasad**, Sanjeev Gurugopinath_ </small>  
 [View Publication](assets/Deep_Learning_Techniques_for_Detection_of_Underwater_Acoustic_Sources.pdf)
 
+---
 
 ## Teaching
 ### Teaching Assistantships 
