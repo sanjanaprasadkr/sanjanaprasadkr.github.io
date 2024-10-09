@@ -1,38 +1,34 @@
 # M.S. in Applied Data Analytics @ Boston University
+ML at Dassault Systemes
 Research Assistant, Boston University  
 Teaching Assistant, Boston University
 
+## About 
+
+I am a Data Science graduate student at Boston University. I completed my Bachelor’s degree in Electronics and Communication Engineering at PES University.
+This summer, I interned at Dassault Systemes as a Data Science Intern, where I worked on improving data pipelines in [BIOVIA Pipeline Pilot's Imaging Collection](https://www.3ds.com/products/biovia/pipeline-pilot/imaging-collection)
+          
 ## Education
-- M.S. in Applied Data Analytics, Boston University (_Jan 2025_)								       		
-- B.Tech. in Electronics and Communication Engineering, PES University (_Jun 2023_)	
+- Master of Science in Applied Data Analytics, Boston University (_2024_)								       		
+- Bachelor of Technology in Electronics and Communication Engineering, PES University (_2023_)	
 
 ## Publications
 **Hurricane Damage Detection using Computer Vision**  
 <small> _Amrita Ramesh, **Sanjana K R Prasad**, Siddhanth Srikanth, Shikha Tripathi_ </small>  
 [View Publication](assets/3591156.3591174.pdf)
-- <u>Python</u> - PyTorch, Python Imaging Library, CV2
-- <u>Computer vision</u> - vision transformer, ResNet, InceptionNet, EfficientNet, visual geometry group, generative adversarial network
-- <u>Image processing</u> - boundary extraction, thresholding, noise removal, opening, flood filling
   
 **Supervised Learning Techniques for Detection of Underwater Acoustic Sources**  
 <small> _**Sanjana K. R. Prasad**, Sanjeev Gurugopinath_ </small>  
 [View Publication](assets/Supervised_Learning_Techniques_for_Detection_of_Underwater_Acoustic_Sources.pdf)
-- <u>Python</u>: TensorFlow, scikit-learn, numpy, matplotlib
-- <u>Machine learning</u>: support vector machine (SVM), logistic regression, naive Bayes, decision tree, random forest
-- <u>Performance metrics</u>: accuracy, probability of detection
-- <u>Statistical concepts</u>: classification, hypothesis testing, Monte Carlo simulation, signal-to-noise ratio (SNR)
-- <u>Noise model</u>: Generalised Gaussian Distribution
-- <u>Datasets</u>: synthetic (generated) and real-world datasets
   
 **Deep Learning Techniques for Detection of Underwater Acoustic Sources**  
 <small> _**Sanjana K. R. Prasad**, Sanjeev Gurugopinath_ </small>  
 [View Publication](assets/Deep_Learning_Techniques_for_Detection_of_Underwater_Acoustic_Sources.pdf)
-- <u>Deep learning</u>: convolutional neural networks (CNN), plain deep neural network, recurrent neural network, long short term memory (LSTM), gated recurrent unit
-- <u>Performance metrics</u>: accuracy, probability of detection, probability of false alarm
-- <u>Datasets</u>: synthetic (generated) dataset and real-world datasets
 
 
-## Experience
+## Industry Experience
+
+### Dassault Systemes
 ### Xenvis Solutions
 **Project - Building an augmented reality measurement application**  
 [Link](https://www.xenvis.com/measurements-using-augmented-reality/)  
@@ -40,14 +36,13 @@ Teaching Assistant, Boston University
 •	Conducted research to optimize image preprocessing for the development of a proprietary 3D model reconstruction software. Achieved ~20% improvement in processing time.
 
 
-## Projects
-### Boston University
+## Teaching
+### Teaching Assistantships 
 
-**Quarterly Clustering for High-Return Stock Identification**  
-- <u>Techniques</u>: clustering
+Boston University: [CS677 Data Science with Python] ("https://www.bu.edu/csmet/files/2024/01/CS-677-A2-Eugene-Pinsky.pdf), Spring 2024, Fall 2024
+Boston University: CS555 Foundations of Machine Learning, Fall 2024
+PES University: Digital Image Processing, Fall 2022
 
-**Sector-wise Stock Performance Analysis for Strategic Investment Decision**  
-- <u>Statistical Techniques</u>: linear regression, ANOVA, ANCOVA, hypothesis testing, correlation, logistic regression
 
 
 
