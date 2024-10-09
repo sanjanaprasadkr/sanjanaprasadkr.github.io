@@ -1,8 +1,8 @@
 <div align="center">
-  <a href="#industry-experience" style="font-size: 20px; margin-right: 20px;">Industry Experience</a> |
-  <a href="#publications" style="font-size: 20px; margin-right: 20px;">Publications</a> |
-  <a href="#teaching" style="font-size: 20px;">Teaching</a> |
-  <a href="#education" style="font-size: 20px; margin-right: 20px;">Education</a> 
+  <a href="#industry-experience" style="font-size: 20px; margin-right: 10px;">Industry Experience</a> |
+  <a href="#publications" style="font-size: 20px; margin-right: 10px;">Publications</a> |
+  <a href="#teaching" style="font-size: 10px;">Teaching</a> |
+  <a href="#education" style="font-size: 20px; margin-right: 10px;">Education</a> 
 </div>
 
 ---
@@ -14,10 +14,10 @@ This summer, I interned at Dassault Systemes as a Data Science Intern, where I w
 
 ---
 
-##Industry Experience
+## Industry Experience
 
-### [Dassault Systemes](https://www.3ds.com)
-**Data Science Intern**, Jun 2024 - Aug 2024
+### [Dassault Systemes](https://www.3ds.com), Jun 2024 - Aug 2024
+**Data Science Intern**
 
 At Dassault Systèmes, I concentrated on developing deep learning components to enhance scientific data pipelines, particularly in pharmaceutical drug development. My efforts focused on improving the interpretability of model predictions, complemented by the creation of comprehensive protocols and output visualizations to support ongoing research and development.
 
@@ -26,8 +26,8 @@ A significant highlight was my involvement in **[Pipeline Pilot's Imaging Collec
 I also acquired valuable experience in product management working under BIOVIA’s product manager, focusing on Agile methodologies, JIRA, user story maps, and HorseShoes for pipelines, maintaining alignment between product development and user needs. 
 
 
-### [Xenvis Solutions](https://www.xenvis.com)
-**Machine Learning Intern**, Sep 2022 - May 2023
+### [Xenvis Solutions](https://www.xenvis.com), Sept 2022 - May 2023
+**Machine Learning Intern**
 
 As part of the Technology & Research team, my primary focus was developing XenCapture, an AI-driven software for photorealistic 2D to 3D model reconstruction, for AR/ VR applications. This has since been rolled out as a full-scale product **[(product link)](https://xencapture.com)**. I contributed to the development of dataset curation, pre-processing pipelines, and research focused on using machine learning to interpolate missing data points that were not captured during the scanning process. 
 
