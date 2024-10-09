@@ -33,7 +33,7 @@ As part of the Technology & Research team, my primary focus was developing XenCa
 
 One of the standout projects I led was the development of an AR measurement app built using Unity. This app allowed users to make precise point-to-point measurements of physical objects using their phone's camera, leveraging computer vision techniques. I authored a blog post detailing various use cases for customers **[(blog link)](https://www.xenvis.com/measurements-using-augmented-reality/)**.
 
-[View experience letter] (assets/Xenvis Internship Work Experience Letter -  SKRP.pdf)
+[View experience letter](assets/xenvis_experience_letter.pdf)
    
 
 
