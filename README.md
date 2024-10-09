@@ -1,8 +1,8 @@
 <div align="center">
-  <a href="#education" style="font-size: 24px; margin-right: 20px;">Education</a> |
   <a href="#industry-experience" style="font-size: 24px; margin-right: 20px;">Industry Experience</a> |
   <a href="#publications" style="font-size: 24px; margin-right: 20px;">Publications</a> |
-  <a href="#teaching" style="font-size: 24px;">Teaching</a>
+  <a href="#teaching" style="font-size: 24px;">Teaching</a> |
+  <a href="#education" style="font-size: 24px; margin-right: 20px;">Education</a> 
 </div>
 
 ---
@@ -12,7 +12,7 @@ I am a Data Science graduate student at Boston University. I completed my Bachel
 
 This summer, I interned at Dassault Systemes as a Data Science Intern, where I worked on improving data pipelines for **[BIOVIA's Pipeline Pilot](https://www.3ds.com/products/biovia/pipeline-pilot)**.
 
-<hr style="border: 2px solid #000;">
+---
 
 ## Industry Experience
 
