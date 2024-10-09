@@ -1,8 +1,8 @@
 <div align="center">
-  <a href="#industry-experience" style="font-size: 20px; margin-right: 10px;">Industry Experience</a> |
-  <a href="#publications" style="font-size: 20px; margin-right: 10px;">Publications</a> |
-  <a href="#teaching" style="font-size: 10px;">Teaching</a> |
-  <a href="#education" style="font-size: 20px; margin-right: 10px;">Education</a> 
+  <a href="#industry-experience" style="font-size: 18px;">Industry Experience</a> |
+  <a href="#publications" style="font-size: 18px;" >Publications</a> |
+  <a href="#teaching" style="font-size: 18px;">Teaching</a> |
+  <a href="#education" style="font-size: 18px;">Education</a> 
 </div>
 
 ---
