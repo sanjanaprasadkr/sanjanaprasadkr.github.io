@@ -40,15 +40,15 @@ One of the standout projects I led was the development of an AR measurement app 
 ---
 
 ## Publications
-1. Hurricane Damage Detection using Computer Vision
+1. Hurricane Damage Detection using Computer Vision  
 <small> _Amrita Ramesh, **Sanjana K R Prasad**, Siddhanth Srikanth, Shikha Tripathi_ </small>  
 [View Publication](assets/3591156.3591174.pdf)
   
-2. Supervised Learning Techniques for Detection of Underwater Acoustic Sources 
+3. Supervised Learning Techniques for Detection of Underwater Acoustic Sources  
 <small> _**Sanjana K. R. Prasad**, Sanjeev Gurugopinath_ </small>  
 [View Publication](assets/Supervised_Learning_Techniques_for_Detection_of_Underwater_Acoustic_Sources.pdf)
   
-3. Deep Learning Techniques for Detection of Underwater Acoustic Sources  
+4. Deep Learning Techniques for Detection of Underwater Acoustic Sources  
 <small> _**Sanjana K. R. Prasad**, Sanjeev Gurugopinath_ </small>  
 [View Publication](assets/Deep_Learning_Techniques_for_Detection_of_Underwater_Acoustic_Sources.pdf)
 
