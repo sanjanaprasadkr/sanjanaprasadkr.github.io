@@ -14,10 +14,10 @@ This summer, I interned at Dassault Systemes as a Data Science Intern, where I w
 
 ---
 
-## <h2 id="industry-experience" style="color: #4B0082;">Industry Experience</h2>
+##Industry Experience
 
 ### [Dassault Systemes](https://www.3ds.com)
-**Data Science Intern**
+**Data Science Intern**, Jun 2024 - Aug 2024
 
 At Dassault Syst√®mes, I concentrated on developing deep learning components to enhance scientific data pipelines, particularly in pharmaceutical drug development. My efforts focused on improving the interpretability of model predictions, complemented by the creation of comprehensive protocols and output visualizations to support ongoing research and development.
 
@@ -27,7 +27,7 @@ I also acquired valuable experience in product management working under BIOVIA‚Ä
 
 
 ### [Xenvis Solutions](https://www.xenvis.com)
-**Machine Learning Intern**  
+**Machine Learning Intern**, Sep 2022 - May 2023
 
 As part of the Technology & Research team, my primary focus was developing XenCapture, an AI-driven software for photorealistic 2D to 3D model reconstruction, for AR/ VR applications. This has since been rolled out as a full-scale product **[(product link)](https://xencapture.com)**. I contributed to the development of dataset curation, pre-processing pipelines, and research focused on using machine learning to interpolate missing data points that were not captured during the scanning process. 
 
