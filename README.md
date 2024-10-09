@@ -5,8 +5,9 @@ Teaching Assistant, Boston University
 
 ## About 
 
-I am a Data Science graduate student at Boston University. I completed my Bachelor’s degree in Electronics and Communication Engineering at PES University.
-This summer, I interned at Dassault Systemes as a Data Science Intern, where I worked on improving data pipelines in [BIOVIA Pipeline Pilot's Imaging Collection](https://www.3ds.com/products/biovia/pipeline-pilot/imaging-collection)
+I am a Data Science graduate student at Boston University. I completed my Bachelor’s degree in Electronics and Communication Engineering at PES University.  
+
+This summer, I interned at Dassault Systemes as a Data Science Intern, where I worked on improving data pipelines for [BIOVIA's Pipeline Pilot](https://www.3ds.com/products/biovia/pipeline-pilot).
           
 ## Education
 - Master of Science in Applied Data Analytics, Boston University (_2024_)								       		
