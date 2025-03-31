@@ -6,6 +6,20 @@
     <title>Teaching - Sanjana Prasad</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <script>
+        window.onload = function() {
+            // Force image reload
+            const images = document.querySelectorAll('img');
+            images.forEach(img => {
+                const src = img.src;
+                img.src = src + '?t=' + new Date().getTime();
+                console.log('Reloaded image:', src);
+            });
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -30,61 +44,61 @@
             <div class="teaching-grid">
                 <!-- Teaching Card 1 -->
                 <div class="teaching-card">
-                    <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2866&q=80" alt="MIT Campus" class="teaching-image">
+                    <div class="image-wrapper" style="overflow: hidden; height: 180px; border-radius: 8px; background-color: #f8f8f8; display: flex; align-items: center; justify-content: center;">
+                        <img src="images/teaching/teaching_img_1_new.png?t=31035500" alt="Boston University Campus" class="teaching-image" style="width: 100%; height: 180px; object-fit: cover; object-position: center; transform: scale(1.15);">
+                    </div>
                     <div class="teaching-content">
-                        <div class="university">Massachusetts Institute of Technology</div>
-                        <div class="teaching-meta">
-                            <span class="position">Teaching Assistant</span>
-                            <span>Graduate Level</span>
+                        <div class="university" style="margin-bottom: 0;">Boston University Faculty of Computing and Data Sciences</div>
+                        <div class="teaching-meta" style="margin: 0; padding: 0;">
+                            <span class="position" style="margin: 0 0 0.2rem; padding: 0.15rem 0.5rem; line-height: 1; color: #6c5ce7; background-color: white; border: 1px solid #6c5ce7;">Teaching Fellow</span>
                         </div>
-                        <div class="department">Department of Electrical Engineering and Computer Science</div>
-                        <h3>Machine Learning and Neural Networks</h3>
-                        <p>Led weekly discussion sections and office hours for graduate-level machine learning course. Developed programming assignments and grading rubrics. Mentored students on course projects involving deep learning applications.</p>
+                        <h3>CDS DS 110 – Introduction to Data Science with Python</h3>
+                        <p>Delivered technical instruction and strategic guidance to a cohort of 90+ graduate students in foundational data science, with a focus on Python programming, statistical thinking, and real-world data analysis. Provided hands-on mentorship in tools like NumPy, pandas, and matplotlib, while reinforcing production-level coding practices and early ML concepts.</p>
                     </div>
                 </div>
 
                 <!-- Teaching Card 2 -->
                 <div class="teaching-card">
-                    <img src="https://images.unsplash.com/photo-1559135197-8a45ea74d367?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="Harvard Campus" class="teaching-image">
+                    <div class="image-wrapper" style="overflow: hidden; height: 180px; border-radius: 8px; background-color: #f8f8f8; display: flex; align-items: center; justify-content: center;">
+                        <img src="images/teaching/teaching_img_2_new.png?t=31035500" alt="Boston University Metropolitan College" class="teaching-image" style="width: 100%; height: 180px; object-fit: cover; object-position: center; transform: scale(1.15);">
+                    </div>
                     <div class="teaching-content">
-                        <div class="university">Harvard University</div>
-                        <div class="teaching-meta">
-                            <span class="position">Teaching Fellow</span>
-                            <span>Undergraduate Level</span>
+                        <div class="university" style="margin-bottom: 0;">Boston University Metropolitan College</div>
+                        <div class="teaching-meta" style="margin: 0; padding: 0;">
+                            <span class="position" style="margin: 0 0 0.2rem; padding: 0.15rem 0.5rem; line-height: 1; color: #6c5ce7; background-color: white; border: 1px solid #6c5ce7;">Teaching Assistant</span>
                         </div>
-                        <div class="department">School of Engineering and Applied Sciences</div>
-                        <h3>Introduction to Data Science</h3>
-                        <p>Conducted hands-on workshops on data analysis and visualization. Created interactive tutorials for Python programming and statistical concepts. Provided one-on-one mentoring for student projects.</p>
+                        <h3>MET CS 677 – Data Science with Python</h3>
+                        <p>Supported instruction for a graduate-level course focused on applied data science using Python. Guided students through weekly assignments and projects involving statistical analysis, data visualization, time series modeling, and recommendation systems. Reinforced best practices across toolkits like pandas, NumPy, and scikit-learn.</p>
                     </div>
                 </div>
 
                 <!-- Teaching Card 3 -->
                 <div class="teaching-card">
-                    <img src="https://images.unsplash.com/photo-1554475901-6dacf9b2ca9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="BU Campus" class="teaching-image">
+                    <div class="image-wrapper" style="overflow: hidden; height: 180px; border-radius: 8px; background-color: #f8f8f8; display: flex; align-items: center; justify-content: center;">
+                        <img src="images/teaching/teaching_img_3_new.png?t=31035500" alt="Boston University Computing & Data Sciences" class="teaching-image" style="width: 100%; height: 180px; object-fit: cover; object-position: center; transform: scale(1.15);">
+                    </div>
                     <div class="teaching-content">
-                        <div class="university">Boston University</div>
-                        <div class="teaching-meta">
-                            <span class="position">Research Mentor</span>
-                            <span>Graduate & Undergraduate</span>
+                        <div class="university" style="margin-bottom: 0;">Boston University Metropolitan College</div>
+                        <div class="teaching-meta" style="margin: 0; padding: 0;">
+                            <span class="position" style="margin: 0 0 0.2rem; padding: 0.15rem 0.5rem; line-height: 1; color: #6c5ce7; background-color: white; border: 1px solid #6c5ce7;">Teaching Assistant</span>
                         </div>
-                        <div class="department">Department of Computer Science</div>
-                        <h3>AI Research Program</h3>
-                        <p>Mentored both graduate and undergraduate students in AI research projects. Provided guidance on research methodology, paper writing, and conference presentations. Facilitated weekly research discussions and progress reviews.</p>
+                        <h3>MET CS 555 – Foundations of Machine Learning</h3>
+                        <p>Assisted in delivering a graduate course on core statistical methods used in modern machine learning. Supported instruction and student work across topics including linear and logistic regression, ANOVA, and survival analysis — with an emphasis on real-world application and interpretation. Helped students apply statistical techniques in R for modeling, visualization, and analytical reasoning.</p>
                     </div>
                 </div>
 
                 <!-- Teaching Card 4 -->
                 <div class="teaching-card">
-                    <img src="https://images.unsplash.com/photo-1564981797816-1043664bf78d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2874&q=80" alt="MIT Campus" class="teaching-image">
+                    <div class="image-wrapper" style="overflow: hidden; height: 180px; border-radius: 8px; background-color: #f8f8f8; display: flex; align-items: center; justify-content: center;">
+                        <img src="images/teaching/teaching_img_4_new.png?t=31035500" alt="PES University Campus" class="teaching-image" style="width: 100%; height: 180px; object-fit: cover; object-position: center; transform: scale(1.15);">
+                    </div>
                     <div class="teaching-content">
-                        <div class="university">Massachusetts Institute of Technology</div>
-                        <div class="teaching-meta">
-                            <span class="position">Workshop Instructor</span>
-                            <span>All Levels</span>
+                        <div class="university" style="margin-bottom: 0;">PES University Department of Electronics and Communication Engineering</div>
+                        <div class="teaching-meta" style="margin: 0; padding: 0;">
+                            <span class="position" style="margin: 0 0 0.2rem; padding: 0.15rem 0.5rem; line-height: 1; color: #6c5ce7; background-color: white; border: 1px solid #6c5ce7;">Teaching Assistant</span>
                         </div>
-                        <div class="department">Department of Electrical Engineering and Computer Science</div>
-                        <h3>Deep Learning Bootcamp</h3>
-                        <p>Conducted intensive workshops on deep learning fundamentals, covering neural networks, CNNs, and transformers with practical implementations. Led hands-on sessions in PyTorch and TensorFlow, focusing on real-world applications.</p>
+                        <h3>Digital Image Processing</h3>
+                        <p>Assisted in the delivery of an undergraduate course on core principles of digital image processing, including filtering, enhancement, segmentation, and compression techniques. Provided support on hands-on assignments involving image transformation and analysis using MATLAB and OpenCV. Helped reinforce foundational concepts through lab sessions and one-on-one mentoring.</p>
                     </div>
                 </div>
             </div>

@@ -3,10 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Sanjana Prasad</title>
+    <title>Contact Me - Sanjana Prasad</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <style>
+        .contact-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .contact-image:hover {
+            transform: scale(1.05);
+        }
+        
+        .image-wrapper {
+            overflow: hidden;
+            height: 350px; /* Significantly increased height */
+            width: 280px; /* Slightly increased width */
+            border-radius: 8px;
+            padding: 0;
+            margin: 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 280px); /* Match the new width */
+            grid-gap: 8px; /* Further reduced for tighter layout */
+            column-gap: 10px; /* Slightly more space horizontally */
+            row-gap: 4px; /* Very tight vertical spacing */
+            margin-top: 1.5rem; /* Reduced from 3rem to move everything up */
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* Remove excess vertical spacing */
+        .contact-page {
+            padding-top: 0.5rem; /* Reduced padding */
+        }
+        
+        .beyond-code {
+            margin-top: 0.75rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        .location {
+            margin-bottom: 0.75rem;
+        }
+        
+        /* Reduce container width for better centering */
+        .contact-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        /* Reduce space above contact info */
+        .contact-info h1 {
+            margin-top: 0.5rem;
+        }
+        
+        .contact-intro {
+            margin-bottom: 1rem;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            // Force image reload - aggressive implementation
+            const images = document.querySelectorAll('img');
+            const timestamp = new Date().getTime();
+            images.forEach(img => {
+                // Remove any existing query params
+                let src = img.src.split('?')[0];
+                // Add new timestamp
+                img.src = src + '?nocache=' + timestamp + '-' + Math.random();
+                console.log('Reloaded image with timestamp:', img.src);
+            });
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -24,45 +105,82 @@
     </header>
 
     <main class="contact-page">
-        <div class="contact-grid">
+        <div class="contact-container">
             <div class="contact-info">
                 <h1>Let's Connect!</h1>
-                <p class="contact-intro">I'm always excited to collaborate on innovative projects and discuss new opportunities in machine learning and computer vision.</p>
+                <p class="contact-intro">I enjoy connecting with professionals, researchers, and students in the industry - it's always great to share ideas and learn from different perspectives. If you're working on something interesting or just want to reach out, feel free to get in touch!</p>
                 
                 <div class="contact-buttons">
-                    <a href="mailto:your.email@example.com" class="contact-link">
-                        <span>✉️ Email</span>
+                    <a href="mailto:sanjana.krprasad@gmail.com" class="contact-button">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
                     </a>
-                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-link">
-                        <span>👔 LinkedIn</span>
+                    <a href="https://www.linkedin.com/in/sanjanakrprasad/" target="_blank" class="contact-button">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
                     </a>
-                    <a href="https://github.com/yourusername" target="_blank" class="contact-link">
-                        <span>💻 GitHub</span>
+                    <a href="https://github.com/sanjanaprasadkr" target="_blank" class="contact-button">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
                     </a>
-                    <a href="path/to/your/resume.pdf" class="resume-button" target="_blank">
-                        <span>📄 Resume</span>
+                    <a href="https://drive.google.com/file/d/1qc_JGiGMrc85-SudQ3ZWlDr5uh_c-1te/view?usp=share_link" target="_blank" class="contact-button">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Resume</span>
                     </a>
                 </div>
 
-                <div class="location-info">
+                <div class="location">
                     <i class="fas fa-map-marker-alt"></i>
-                    Based in Boston, MA (open to relocate)
+                    <span>Based in Boston, MA (open to relocate)</span>
                 </div>
 
-                <div class="interests-section">
-                    <h2>Beyond the Code</h2>
-                    <p class="interests-text">When I'm not immersed in machine learning and coding, you'll find me exploring the outdoors, experimenting with photography, and practicing yoga. I'm also an avid reader of sci-fi novels and enjoy participating in local tech meetups.</p>
+                <div class="beyond-code">
+                    <h2>Beyond Code</h2>
+                    <p>I paint, hike, gym, and like to travel. I enjoy finding community within the things I do.</p>
                 </div>
             </div>
 
-            <div class="photo-collage">
-                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306" alt="Hiking adventure" class="collage-img">
-                <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e" alt="Photography" class="collage-img">
-                <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b" alt="Yoga practice" class="collage-img">
-                <img src="https://images.unsplash.com/photo-1474932430478-367dbb6832c1" alt="Reading" class="collage-img">
-                <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b" alt="Tech meetup" class="collage-img">
+            <div class="photo-grid">
+                <div class="image-wrapper">
+                    <img src="images/contact/contact_img_1.png?fresh=31035300" alt="Contact 1" class="contact-image" width="280" height="350" style="transform: scale(2.2); object-position: center center;">
+                </div>
+                <div class="image-wrapper">
+                    <img src="images/contact/kjj.png?fresh=31035300" alt="Contact 2" class="contact-image" width="280" height="350" style="transform: scale(2.2); object-position: center center;">
+                </div>
+                <div class="image-wrapper">
+                    <img src="images/contact/contact_img_4.JPG?fresh=31035300" alt="Contact 4" class="contact-image" width="280" height="350" style="transform: scale(2.5); object-position: center center;">
+                </div>
+                <div class="image-wrapper">
+                    <img src="images/contact/contact_img_5.jpg?fresh=31035300" alt="Contact 5" class="contact-image" width="280" height="350" style="transform: scale(2.2); object-position: center center;">
+                </div>
             </div>
+            
+            <script>
+                // Force immediate reload of contact images
+                document.addEventListener("DOMContentLoaded", function() {
+                    setTimeout(function() {
+                        const contactImages = document.querySelectorAll('.contact-image');
+                        const forceTimestamp = Date.now();
+                        
+                        // Directly reference exactly the files we know exist
+                        const imageFiles = [
+                            'contact_img_1.png',
+                            'kjj.png',
+                            'contact_img_4.JPG',
+                            'contact_img_5.jpg'
+                        ];
+                        
+                        contactImages.forEach((img, index) => {
+                            // Force new image load with absolute path and timestamp
+                            img.src = 'images/contact/' + imageFiles[index] + '?reload=' + forceTimestamp + '-' + Math.random();
+                            console.log("Loading image:", img.src);
+                        });
+                    }, 100);
+                });
+            </script>
         </div>
     </main>
+
+
 </body>
 </html> 

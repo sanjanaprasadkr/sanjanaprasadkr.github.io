@@ -6,6 +6,51 @@
     <title>Experience - Sanjana Prasad</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <script>
+        window.onload = function() {
+            // Force image reload
+            const images = document.querySelectorAll('img');
+            images.forEach(img => {
+                const src = img.src;
+                img.src = src + '?t=' + new Date().getTime();
+                console.log('Reloaded image:', src);
+            });
+        }
+    </script>
+    <style>
+        .company-logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 42px;
+            height: 42px;
+            border-radius: 8px;
+            background-color: transparent;
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            overflow: hidden;
+            padding: 0;
+        }
+        
+        .company-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        /* Target specifically the RIOS logo */
+        .company-logo img[alt="RIOS logo"] {
+            object-fit: cover;
+            background-color: transparent;
+            width: 100%;
+            height: 100%;
+            transform: scale(1.5);
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -30,112 +75,136 @@
             </p>
 
             <div class="experience-grid">
+                <!-- Experience Card 1 -->
                 <div class="experience-card">
                     <div class="company-header">
-                        <div class="company-logo">W</div>
+                        <div class="company-logo">
+                            <img src="images/experience/exp_logo_1.png?v=31" alt="Nyxion logo">
+                        </div>
                         <div class="company-info">
-                            <h3>Wayfair</h3>
-                            <span class="year">2024</span>
+                            <h3>Nyxion</h3>
+                            <span class="year">Jan 2025 - Present</span>
                         </div>
                     </div>
-                    <h4>Machine Learning Engineer</h4>
-                    <p>Leading ML initiatives for personalized product recommendations and customer behavior analysis.</p>
+                    <h4>Data Engineer</h4>
+                    <p>Optimizing real-time data collection, impact measurement, and AI-driven reporting at scale.</p>
                     <div class="skills-tags">
-                        <span class="skill-tag">ML</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">LLMs</span>
+                        <span class="skill-tag">Data Engineering</span>
+                        <span class="skill-tag">Automation</span>
+                        <span class="skill-tag">DBMS</span>
                     </div>
-                    <a href="#" class="button secondary" data-company="wayfair">Read About My Experience</a>
+                    <a href="#" class="button secondary" data-company="nyxion">Read About My Experience</a>
                 </div>
 
+                <!-- Experience Card 2 -->
                 <div class="experience-card">
                     <div class="company-header">
-                        <div class="company-logo">B</div>
+                        <div class="company-logo">
+                            <img src="images/experience/exp_logo_2.png?v=31" alt="Dassault Systèmes logo">
+                        </div>
                         <div class="company-info">
-                            <h3>BCG</h3>
-                            <span class="year">2023</span>
+                            <h3>Dassault Systèmes</h3>
+                            <span class="year">Jun - Sep 2024</span>
                         </div>
                     </div>
-                    <h4>Data Scientist</h4>
-                    <p>Developed analytics solutions for Fortune 500 clients using advanced ML techniques.</p>
+                    <h4>Data Scientist Intern</h4>
+                    <p>Bridged product and deep learning to optimize scientific data pipelines inside BIOVIA's flagship platform.</p>
                     <div class="skills-tags">
-                        <span class="skill-tag">Analytics</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">ML</span>
+                        <span class="skill-tag">Product Management</span>
+                        <span class="skill-tag">Computer Vision</span>
+                        <span class="skill-tag">Data Pipelines</span>
+                        <span class="skill-tag">Agile</span>
                     </div>
-                    <a href="#" class="button secondary" data-company="bcg">Read About My Experience</a>
+                    <a href="#" class="button secondary" data-company="biovia">Read About My Experience</a>
                 </div>
 
+                <!-- Experience Card 3 -->
                 <div class="experience-card">
                     <div class="company-header">
-                        <div class="company-logo">M</div>
+                        <div class="company-logo">
+                            <img src="images/experience/exp_logo_3.png?v=31" alt="RIOS logo">
+                        </div>
                         <div class="company-info">
-                            <h3>Meta</h3>
-                            <span class="year">2023</span>
+                            <h3>RIOS</h3>
+                            <span class="year">Feb 2025 - Present</span>
                         </div>
                     </div>
-                    <h4>Software Engineer Intern</h4>
-                    <p>Built and optimized ML models for content understanding and recommendation.</p>
+                    <h4>Machine Learning Researcher</h4>
+                    <p>Prototyping an AI-powered research OS to streamline grant writing, project tracking, and R&D insights.</p>
                     <div class="skills-tags">
-                        <span class="skill-tag">NLP</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">ML</span>
+                        <span class="skill-tag">LLMs</span>
+                        <span class="skill-tag">Vector Databases</span>
+                        <span class="skill-tag">Automation</span>
+                        <span class="skill-tag">Data Modeling</span>
                     </div>
-                    <a href="#" class="button secondary">Read About My Experience</a>
+                    <a href="#" class="button secondary" data-company="rios">Read About My Experience</a>
                 </div>
 
+                <!-- Experience Card 4 -->
                 <div class="experience-card">
                     <div class="company-header">
-                        <div class="company-logo">M</div>
+                        <div class="company-logo">
+                            <img src="images/experience/exp_logo_4.png?v=31" alt="Korro AI logo">
+                        </div>
                         <div class="company-info">
-                            <h3>Microsoft</h3>
-                            <span class="year">2022</span>
+                            <h3>Korro AI x BU</h3>
+                            <span class="year">Mar - Aug 2024</span>
                         </div>
                     </div>
-                    <h4>Research Intern</h4>
-                    <p>Researched and implemented NLP models for code generation and analysis.</p>
+                    <h4>Data Analyst</h4>
+                    <p>Bridging health data and analytics to support therapeutic design for neurodiverse children.</p>
                     <div class="skills-tags">
-                        <span class="skill-tag">Research</span>
-                        <span class="skill-tag">NLP</span>
-                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">Clinical Research</span>
+                        <span class="skill-tag">Dashboards</span>
                     </div>
-                    <a href="#" class="button secondary">Read About My Experience</a>
+                    <a href="#" class="button secondary" data-company="korro">Read About My Experience</a>
                 </div>
 
+                <!-- Experience Card 5 -->
                 <div class="experience-card">
                     <div class="company-header">
-                        <div class="company-logo">G</div>
+                        <div class="company-logo">
+                            <img src="images/experience/exp_logo_5.png?v=31" alt="Xenvis logo">
+                        </div>
                         <div class="company-info">
-                            <h3>Google</h3>
-                            <span class="year">2021</span>
+                            <h3>Xenvis</h3>
+                            <span class="year">Sep 2022 - May 2023</span>
                         </div>
                     </div>
-                    <h4>Software Engineer Intern</h4>
-                    <p>Developed scalable cloud infrastructure solutions for ML pipelines.</p>
+                    <h4>Computer Vision (AR/VR) Intern</h4>
+                    <p>Prototyped AR/VR tools for 3D reconstruction and spatial vision — built for India, built to scale.</p>
                     <div class="skills-tags">
-                        <span class="skill-tag">Cloud</span>
-                        <span class="skill-tag">ML</span>
-                        <span class="skill-tag">DevOps</span>
+                        <span class="skill-tag">Computer Vision</span>
+                        <span class="skill-tag">3D Modeling</span>
+                        <span class="skill-tag">AR/VR</span>
+                        <span class="skill-tag">Product Prototyping</span>
                     </div>
-                    <a href="#" class="button secondary">Read About My Experience</a>
+                    <a href="#" class="button secondary" data-company="xenvis">Read About My Experience</a>
                 </div>
 
+                <!-- Experience Card 6 -->
                 <div class="experience-card">
                     <div class="company-header">
-                        <div class="company-logo">A</div>
+                        <div class="company-logo">
+                            <img src="images/experience/exp_logo_6.png?v=31" alt="Boston University logo">
+                        </div>
                         <div class="company-info">
-                            <h3>Amazon</h3>
-                            <span class="year">2020</span>
+                            <h3>Boston University</h3>
+                            <span class="year">Jan - May 2024</span>
                         </div>
                     </div>
-                    <h4>Software Development Engineer Intern</h4>
-                    <p>Built scalable backend services and ML-powered recommendation systems.</p>
+                    <h4>Financial Research Assistant</h4>
+                    <p>Applied machine learning to optimize ETF portfolios and model market behavior through data-driven financial strategies.</p>
                     <div class="skills-tags">
-                        <span class="skill-tag">Backend</span>
-                        <span class="skill-tag">ML</span>
-                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Predictive Modeling</span>
+                        <span class="skill-tag">Portfolio Optimization</span>
+                        <span class="skill-tag">Unsupervised Learning</span>
                     </div>
-                    <a href="#" class="button secondary">Read About My Experience</a>
+                    <a href="#" class="button secondary" data-company="bu">Read About My Experience</a>
                 </div>
             </div>
         </section>
@@ -146,28 +215,16 @@
         <div class="experience-popup">
             <button class="popup-close">×</button>
             <div class="experience-popup-content">
-                <h2>My Journey at Wayfair</h2>
+                <h2>Nyxion (Contract) — Building Smarter Impact Infrastructure</h2>
                 <div class="meta">
-                    <span>Role: Machine Learning Engineer</span>
+                    <span>Role: Data Engineer</span>
                     <span>•</span>
-                    <span>Duration: 2024 - Present</span>
+                    <span>Duration: January 2025 – Present</span>
                 </div>
-                <p>
-                    During my time at Wayfair, I've been at the forefront of revolutionizing how customers discover and shop for home furnishings. Leading a team of talented engineers, we've developed cutting-edge ML models that understand customer preferences and shopping patterns.
-                </p>
-                <div class="image-grid">
-                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40" alt="Working on ML models">
-                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c" alt="Team collaboration">
-                </div>
-                <p>
-                    One of our key achievements was implementing a real-time recommendation system that increased customer engagement by 40%. The system uses advanced deep learning techniques to understand product relationships and user behavior patterns.
-                </p>
-                <p>
-                    We also pioneered the use of computer vision algorithms to help customers visualize furniture in their homes before purchase, leading to a significant reduction in return rates and improved customer satisfaction.
-                </p>
-                <div class="image-grid">
-                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978" alt="Team meeting">
-                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998" alt="Data visualization">
+                <p>At Nyxion, I've been building and scaling systems to power automated, real-time impact measurement — using their proprietary Vertical AI Agent. I focused on optimizing data collection workflows, designing ETL pipelines, and enhancing transparency across socio-economic reporting processes.</p>
+                <p>I also strengthened their core data infrastructure by integrating LLMs for schema alignment and smart data processing, which led to improved accuracy and reduced operational costs. It's been all about clean architecture, scalable systems, and making AI tools that actually deliver.</p>
+                <div style="margin-top: 2rem;">
+                    <a href="https://www.nyxion.tech" target="_blank" class="button secondary">Visit Nyxion</a>
                 </div>
             </div>
         </div>
@@ -179,9 +236,104 @@
         const popup = document.querySelector('.experience-popup');
         const closeButton = document.querySelector('.popup-close');
         const experienceButtons = document.querySelectorAll('.experience-card .button');
+        const popupContent = document.querySelector('.experience-popup-content');
+
+        // Experience content mapping
+        const experienceContent = {
+            nyxion: {
+                title: "Nyxion (Contract) — Building Smarter Impact Infrastructure",
+                role: "Data Engineer",
+                duration: "January 2025 – Present",
+                content: `
+                    <div class="popup-image-container" style="margin-bottom: 1.5rem; border-radius: 8px; overflow: hidden; max-width: 85%; margin-left: auto; margin-right: auto;">
+                        <img src="images/experience/nyxion_popup.png?v=31033700" alt="Nyxion Project" style="width: 100%; display: block;">
+                    </div>
+                    <p>At Nyxion, I've been building and scaling systems to power automated, real-time impact measurement — using their proprietary Vertical AI Agent. I focused on optimizing data collection workflows, designing ETL pipelines, and enhancing transparency across socio-economic reporting processes.</p>
+                    <p>I also strengthened their core data infrastructure by integrating LLMs for schema alignment and smart data processing, which led to improved accuracy and reduced operational costs. It's been all about clean architecture, scalable systems, and making AI tools that actually deliver.</p>
+                    <div style="margin-top: 2rem;">
+                        <a href="https://www.nyxion.tech" target="_blank" class="button secondary">Visit Nyxion</a>
+                    </div>
+                `
+            },
+            rios: {
+                title: "RIOS x RASTIC — Reimagining Research Workflows with AI",
+                role: "Machine Learning Researcher",
+                duration: "February 2025 – Present",
+                content: `
+                    <p>RIOS (Research Infrastructure Operating System) is a lightweight, AI-native platform built to help research centers modernize how they operate — and I joined the founding team to help make that real at RASTIC, a center focused on robotics and autonomous systems.</p>
+                    <p>My work spans LLM-based automation, retrieval-augmented generation (RAG), and structured data pipelines. From grant proposal generation to knowledge capture and forecasting, I've been designing tools to automate the research workflow end to end. I also built a vectorized research database with custom labeling and schema design — enabling context-aware assistants to support researchers with smarter, more connected insights.</p>
+                `
+            },
+            biovia: {
+                title: "BIOVIA – Optimizing Scientific Pipelines with Vision and Product Thinking",
+                role: "Data Scientist Intern",
+                duration: "June – September 2024",
+                content: `
+                    <div class="popup-image-container" style="margin-bottom: 1.5rem; border-radius: 8px; overflow: hidden; max-width: 85%; margin-left: auto; margin-right: auto;">
+                        <img src="images/experience/dassault_popup.png?v=31033700" alt="BIOVIA Project" style="width: 100%; display: block;">
+                    </div>
+                    <p>At BIOVIA (Dassault Systèmes), I worked on Pipeline Pilot — a flagship platform used to automate scientific workflows and visualize complex pharmaceutical data. Partnering directly with the senior product manager, I contributed to streamlining and scaling data pipelines with deep learning capabilities.</p>
+                    <p>I helped integrate computer vision modules into the platform's pipeline architecture, improving model interpretability and scientific insight generation. Alongside the R&D team, I applied Agile product practices to align technical enhancements with user needs and release goals — blending engineering with product ownership.</p>
+                    <p>Specifically, I worked on the Imaging Collection, developing advanced image and video analytics capabilities with ML and deep learning to enhance the platform's scientific data processing capabilities.</p>
+                    <div style="margin-top: 2rem;">
+                        <a href="https://www.3ds.com/products/biovia/pipeline-pilot" target="_blank" class="button secondary">Visit Pipeline Pilot</a>
+                    </div>
+                `
+            },
+            korro: {
+                title: "Korro AI x BU – Data-Driven Therapeutics for Neurodevelopmental Health",
+                role: "Data Analyst",
+                duration: "March – August 2024",
+                content: `
+                    <p>At Korro AI, in collaboration with Boston University, I supported a clinical study using an AI-powered game app designed for children with developmental challenges. My work centered on extracting and analyzing player interaction data to evaluate cognitive and motor improvements.</p>
+                    <p>I worked with clinicians and therapeutic researchers to design cleaner, more interpretable data flows — using SQL-based pipelines and lightweight dashboards to surface key insights. From event-level logs to impact metrics, I helped translate gameplay into research-ready, action-guiding signals.</p>
+                `
+            },
+            xenvis: {
+                title: "Xenvis – Building 3D Vision Systems for the Indian Market",
+                role: "Computer Vision (AR/VR) Intern",
+                duration: "September 2022 – May 2023",
+                content: `
+                    <div class="popup-image-container" style="margin-bottom: 1.5rem; border-radius: 8px; overflow: hidden; max-width: 85%; margin-left: auto; margin-right: auto;">
+                        <img src="images/experience/xenvis_popup.png?v=31033800" alt="Xenvis Project" style="width: 100%; display: block;">
+                    </div>
+                    <p>At Xenvis, I led the development of XenCapture, a computer vision–powered platform that converts 2D images and videos into high-fidelity, photorealistic 3D models. I established preprocessing workflows, set data quality standards, and streamlined model reconstruction — building one of the few AI-driven photogrammetry pipelines available on Android, specifically optimized for industrial use cases.</p>
+                    <p>We also developed a mobile AR tool for precise spatial measurements, aimed at automating visual inspections in industries like retail, architecture, and manufacturing. Working within India's dynamic tech landscape presented challenges in edge-device performance and scaling — which shaped the product's design, compression strategy, and real-world robustness.</p>
+                    <div style="margin-top: 2rem;">
+                        <a href="https://xencapture.com" target="_blank" class="button secondary">Visit XenCapture</a>
+                    </div>
+                `
+            },
+            bu: {
+                title: "Boston University – Machine Learning Meets Market Strategy",
+                role: "Financial Research Assistant",
+                duration: "January – May 2024",
+                content: `
+                    <p>At Boston University, I developed machine learning–driven models to support ETF portfolio rebalancing and market trend forecasting. Using a mix of predictive analytics and unsupervised clustering, I built dynamic allocation strategies that responded to macroeconomic indicators and volatility patterns.</p>
+                    <p>I also optimized risk tolerance frameworks using ML-based scoring, enhancing portfolio construction across investor profiles. My work blended financial theory with statistical learning — enabling smarter investment simulations and data-backed strategy design.</p>
+                `
+            }
+        };
+
+        // Function to update popup content
+        function updatePopupContent(company) {
+            const content = experienceContent[company];
+            if (content) {
+                popupContent.innerHTML = `
+                    <h2>${content.title}</h2>
+                    <div class="meta">
+                        <span>Role: ${content.role}</span>
+                        <span>•</span>
+                        <span>Duration: ${content.duration}</span>
+                    </div>
+                    ${content.content}
+                `;
+            }
+        }
 
         // Function to open popup
-        function openPopup() {
+        function openPopup(company) {
+            updatePopupContent(company);
             overlay.classList.add('active');
             setTimeout(() => {
                 popup.classList.add('active');
@@ -202,7 +354,8 @@
         experienceButtons.forEach(button => {
             button.addEventListener('click', (e) => {
                 e.preventDefault();
-                openPopup();
+                const company = button.getAttribute('data-company');
+                openPopup(company);
             });
         });
 

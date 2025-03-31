@@ -6,8 +6,67 @@
     <title>Sanjana Prasad - Data Scientist</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <script>
+        window.onload = function() {
+            // Force image reload
+            const images = document.querySelectorAll('img');
+            images.forEach(img => {
+                const src = img.src;
+                img.src = src + '?t=' + new Date().getTime();
+                console.log('Reloaded image:', src);
+            });
+        }
+    </script>
+    <style>
+        .narrow-banner {
+            width: 100%;
+            height: 150px;
+            background-image: url('images/home/home_img_2.png?v=1');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            margin-bottom: 0.75rem;
+        }
+        .narrow-banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(108, 92, 231, 0.15);
+            backdrop-filter: blur(1px);
+        }
+        .about-section {
+            padding-left: 3rem !important;
+        }
+        h1 {
+            margin-top: 2rem !important;
+            margin-left: 6rem !important;
+        }
+        .bio {
+            margin-top: 3rem !important;
+        }
+        .bio p:nth-child(2) {
+            width: 100% !important;
+            margin-left: 0 !important;
+            left: 0 !important;
+            transform: none !important;
+            position: relative !important;
+            box-sizing: border-box !important;
+            margin-top: 2rem !important;
+            padding: 2rem 1.5rem !important;
+            background: rgba(108, 92, 231, 0.1) !important;
+            max-width: none !important;
+            clear: both !important;
+        }
+    </style>
 </head>
 <body>
+    <div class="neural-bg"></div>
     <header>
         <a href="index.html" class="logo">Sanjana Prasad</a>
         <nav>
@@ -22,66 +81,60 @@
         </nav>
     </header>
 
+    <div class="narrow-banner"></div>
+
     <main>
         <section id="home" class="hero">
             <div class="content-wrapper">
                 <div class="profile-container">
-                    <img src="assets/IMG_9838.JPG" alt="Sanjana Prasad" class="profile-image">
-                    <div class="cta-buttons">
-                        <a href="assets/resume.pdf" class="button primary">Download Resume</a>
-                    </div>
+                    <img src="images/home/home_img_1.jpg?v=31032035" alt="Sanjana Prasad" class="profile-image">
                 </div>
                 
                 <div class="about-section">
-                    <h1>Sanjana Prasad</h1>
-                    <div class="roles">
-                        <span>Data Scientist</span>
-                        <span class="separator">|</span>
-                        <span>Data Analyst</span>
-                        <span class="separator">|</span>
-                        <span>ML/AI Engineer</span>
+                    <div style="margin-bottom: 0.5rem;">
+                        <h1>Sanjana Prasad</h1>
+                        <div class="roles" style="margin: 1.5rem 0 2rem; margin-left: 3rem;">
+                            <span style="font-size: 1rem; padding: 0.5rem 1rem; background: rgba(108, 92, 231, 0.05); border-radius: 4px; transition: all 0.3s ease;">Data Scientist</span>
+                            <span style="color: var(--primary-color); opacity: 0.5; font-size: 1.2rem;">|</span>
+                            <span style="font-size: 1rem; padding: 0.5rem 1rem; background: rgba(108, 92, 231, 0.05); border-radius: 4px; transition: all 0.3s ease;">Data Analyst</span>
+                            <span style="color: var(--primary-color); opacity: 0.5; font-size: 1.2rem;">|</span>
+                            <span style="font-size: 1rem; padding: 0.5rem 1rem; background: rgba(108, 92, 231, 0.05); border-radius: 4px; transition: all 0.3s ease;">ML/AI Engineer</span>
+                        </div>
                     </div>
-                    <p>
-                        Passionate about transforming complex data into actionable insights, I thrive at the intersection of data science and artificial intelligence. With expertise in healthcare analytics, financial modeling, and machine learning, I bring a unique blend of technical prowess and domain knowledge to every project.
-                    </p>
+                    <div class="bio" style="margin-top: 3rem !important;">
+                        <p style="font-size: 1.05rem !important; padding-left: 0 !important; margin-left: 0 !important; text-align: left !important;">
+                            I focus on developing applied machine learning and data-driven systems that are scalable and domain-aware. My work spans LLMs, computer vision, and end-to-end data pipelines, applied across areas like healthcare and finance.
+                        </p>
+                        <div style="width: 150%; padding: 1.5rem 2.5rem 2rem; background: rgba(108, 92, 231, 0.08); border-radius: 16px; margin-top: 2.5rem; text-align: left; clear: both; margin-left: -23rem; box-shadow: 0 4px 20px rgba(108, 92, 231, 0.05); backdrop-filter: blur(4px);">
+                            I like working at the intersection of research and application—where there's room to explore new ideas and a clear path to real-world impact. I've taught a few data science classes and really enjoy teaching.
+                            <br><br>
+                            I recently completed a Master's in Data Science at Boston University and hold a Bachelor's in Electrical Engineering from PES University. I interned at Dassault Systèmes last summer, where I worked on data pipelines and internal software tools.
+                        </div>
+                    </div>
                     <div class="skills">
-                        <span class="skill-tag">Healthcare</span>
-                        <span class="skill-tag">Finance</span>
-                        <span class="skill-tag">Machine Learning</span>
-                        <span class="skill-tag">Big Data</span>
-                        <span class="skill-tag">Analytics</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="innovations">
-                <h2>Try Out My Latest Innovations!</h2>
-                <div class="innovation-grid">
-                    <div class="innovation-card">
-                        <h3>Stable Diffusion XL Model</h3>
-                        <p>Generate custom images using finetuned Stable Diffusion XL - Try it now!</p>
-                        <div class="input-group">
-                            <input type="text" class="input-field" placeholder="Enter text...">
-                            <a href="https://huggingface.co/spaces/yourusername/stable-diffusion" target="_blank" class="button primary">Generate</a>
-                        </div>
-                    </div>
-                    <div class="innovation-card">
-                        <h3>Sentiment Analysis</h3>
-                        <p>Real-time sentiment analysis powered by BERT Transformer - Test it here!</p>
-                        <div class="input-group">
-                            <input type="text" class="input-field" placeholder="Enter text...">
-                            <a href="https://huggingface.co/spaces/yourusername/sentiment-analysis" target="_blank" class="button primary">Analyze</a>
-                        </div>
+                        <span class="skill-tag" onclick="filterProjects('Healthcare')">Healthcare</span>
+                        <span class="skill-tag" onclick="filterProjects('Finance')">Finance</span>
+                        <span class="skill-tag" onclick="filterProjects('Machine Learning')">Machine Learning</span>
+                        <span class="skill-tag" onclick="filterProjects('Big Data')">Big Data</span>
+                        <span class="skill-tag" onclick="filterProjects('Analytics')">Analytics</span>
                     </div>
                 </div>
             </div>
         </section>
-
-        <div class="chat-button">
-            <button class="chat-bubble">
-                💬
-            </button>
-        </div>
     </main>
+
+    <script>
+    function filterProjects(tag) {
+        // Add a subtle animation to the clicked tag
+        const clickedTag = event.target;
+        clickedTag.style.transform = 'scale(0.95)';
+        setTimeout(() => {
+            clickedTag.style.transform = 'scale(1)';
+        }, 200);
+
+        // You can implement actual filtering logic here when you have a projects section
+        console.log(`Filtering for: ${tag}`);
+    }
+    </script>
 </body>
 </html> 
