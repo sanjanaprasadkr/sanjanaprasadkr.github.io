@@ -147,8 +147,22 @@
         </section>
     </main>
 
+<<<<<<< HEAD
+    <script src="js/mobile-menu.js"></script>
+    <script>
+        // Project filtering functionality
+        function filterProjects(tag) {
+            const projects = document.querySelectorAll('.project-card');
+            projects.forEach(project => {
+                const projectTags = project.querySelectorAll('.domain-tag');
+                const hasTag = Array.from(projectTags).some(t => t.textContent.toLowerCase() === tag.toLowerCase());
+                project.style.display = hasTag ? 'block' : 'none';
+            });
+        }
+=======
     <script>
         // Remove old flip functionality
+>>>>>>> 8b1a7b022c833cec94f8ed80e7fe5778313dd894
     </script>
 
     <style>
